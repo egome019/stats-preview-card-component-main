@@ -12,6 +12,32 @@ body {
 	align-items: center;
 	height: 100vh;
 	background-color: hsl(233, 47%, 7%);
+	justify-content: center;
 	color: white;
 	font-size: 15px;
+}
+
+@media screen and (max-width: 600px) {
+	.card {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 300px;
+		margin: auto;
+		background-color: hsl(244, 38%, 16%);
+	}
+
+	.card__img img {
+		width: 300px;
+		border-radius: 10px 10px 0px 0px;
+	}
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
 }
